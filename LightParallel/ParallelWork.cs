@@ -47,7 +47,7 @@
 
             while (workInProgress.Any())
             {
-                var finishedTable = await Task.WhenAny(workInProgress).ConfigureAwait(false);
+                var finishedTask = await Task.WhenAny(workInProgress).ConfigureAwait(false);
 
                 // Trigger new task
                 if (nextItem < pendingWork.Count())
@@ -57,8 +57,8 @@
                 }
 
                 // Remove completed task
-                workInProgress.Remove(finishedTable);
-                finishedTable.Dispose();
+                workInProgress.Remove(finishedTask);
+                finishedTask.Dispose();
             }
         }
 
