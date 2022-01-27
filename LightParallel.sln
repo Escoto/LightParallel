@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightParallel", "LightParallel\LightParallel.csproj", "{EAE8852E-331D-4C27-B9A0-C6584CD44C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightParallelTests", "LightParallelTests\LightParallelTests.csproj", "{44DCC78F-492C-40CE-B056-019ECDECEEA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAE8852E-331D-4C27-B9A0-C6584CD44C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE8852E-331D-4C27-B9A0-C6584CD44C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE8852E-331D-4C27-B9A0-C6584CD44C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE8852E-331D-4C27-B9A0-C6584CD44C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DCC78F-492C-40CE-B056-019ECDECEEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DCC78F-492C-40CE-B056-019ECDECEEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DCC78F-492C-40CE-B056-019ECDECEEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DCC78F-492C-40CE-B056-019ECDECEEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BA9721B-7774-4C9D-9013-AAFAD0A833DE}
+	EndGlobalSection
+EndGlobal
